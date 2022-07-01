@@ -15,27 +15,20 @@ public class CalculateTest {
   public void testSum2() {
     Calculate calculate = new Calculate();
     int expected = 15;
-    assertEquals(expected, calculate.sum2(1, 5));
+    assertEquals(expected, calculate.sum(1, 5));
   }
 
   @Test
   public void testAverage() {
     Calculate calculate = new Calculate();
-    double expected = 3;
-    assertEquals(expected, calculate.average(1, 5), 0.0);
+    int expected = 3;
+    assertEquals(expected, calculate.sum(1, 5));
   }
 
   @Test
   public void testSumOdd() {
     Calculate calculate = new Calculate();
-    int expected = 25;
-    assertEquals(expected, calculate.sumOdd(1, 10));
-  }
-
-  @Test
-  public void testSumEven() {
-    Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.sumEven(1, 10));
+    int expected = 5;
+    assertEquals(expected, calculate.sum(1, 10));
   }
 }

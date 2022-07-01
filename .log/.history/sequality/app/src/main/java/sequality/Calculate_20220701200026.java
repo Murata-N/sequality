@@ -13,8 +13,8 @@ public class Calculate {
     return z;
   }
 
-  public double average(int x, int y) {
-    return (double)sum2(x, y) / (y-x+1);
+  public int average(int x, int y) {
+    return sum(x, y) / (y-x+1);
   }
 
   public int sumOdd(int x, int y) {

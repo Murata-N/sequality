@@ -14,7 +14,7 @@ public class Calculate {
   }
 
   public double average(int x, int y) {
-    return (double)sum2(x, y) / (y-x+1);
+    return sum2(x, y) / (y-x+1);
   }
 
   public int sumOdd(int x, int y) {

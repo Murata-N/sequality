@@ -22,7 +22,7 @@ public class CalculateTest {
   public void testAverage() {
     Calculate calculate = new Calculate();
     double expected = 3;
-    assertEquals(expected, calculate.average(1, 5), 0.0);
+    assertEquals(expected, calculate.average(1, 5));
   }
 
   @Test

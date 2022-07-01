@@ -14,7 +14,7 @@ public class App {
 
     System.out.println(new App().getGreeting());
     System.out.println("Sum of " + a + " and " + b + " is " + calculate.sum(a, b) + ". Average is " + calculate.average(a, b) + ".");
-    System.out.println("Sum of " + c + " to " + d + " is " + calculate.sum2(c, d) + ". Average is " + calculate.average(c, d) + ".");
-    System.out.println("Sum of odd of " + c +  " to " + d + " is " + calculate.sumOdd(c, d) + ". Sum of even is " + calculate.sumEven(c, d) + ".");
+    System.out.println("Sum of " + 1 + " to " + 10 + " is " + calculate.sum2(c, d) + ". Average is " + calculate.average(c, d) + ".");
+    System.out.println("Sum of odd of 1 to 10 is " + calculate.sumOdd(c, d) + ". Sum of even is " + calculate.sumEven(c, d) + ".");
   }
 }

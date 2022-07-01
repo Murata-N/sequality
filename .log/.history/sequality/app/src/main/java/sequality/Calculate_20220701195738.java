@@ -2,19 +2,13 @@ package sequality;
 
 public class Calculate {
   public int sum(int x, int y) {
+    int z;
+    for()
     return x + y;
   }
 
-  public int sum2(int x, int y) {
-    int z = 0;
-    for (int i = x; i <= y; i++) {
-      z = z + i;
-    }
-    return z;
-  }
-
-  public double average(int x, int y) {
-    return (double)sum2(x, y) / (y-x+1);
+  public int average(int x, int y) {
+    return sum(x, y) / (y-x+1);
   }
 
   public int sumOdd(int x, int y) {

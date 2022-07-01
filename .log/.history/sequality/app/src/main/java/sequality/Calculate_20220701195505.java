@@ -5,16 +5,10 @@ public class Calculate {
     return x + y;
   }
 
-  public int sum2(int x, int y) {
-    int z = 0;
-    for (int i = x; i <= y; i++) {
-      z = z + i;
-    }
-    return z;
-  }
+  public int average(int x, int y) {
+    int z = sum(x, y);
 
-  public double average(int x, int y) {
-    return (double)sum2(x, y) / (y-x+1);
+    return 
   }
 
   public int sumOdd(int x, int y) {
